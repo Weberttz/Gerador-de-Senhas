@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo  "----------------INFORMAÇÔES---------------"
+echo  "----------------INFORMAÇÕES---------------"
 echo ""
 
 echo -n "Nome de usuário: "

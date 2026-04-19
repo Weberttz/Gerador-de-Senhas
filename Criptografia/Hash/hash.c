@@ -20,7 +20,7 @@ int main(int argc, char *argv[]){
     char *senha = argv[1];
     
     SHA256((unsigned char*)senha, strlen(senha), hash);
-
+    
     printf("Hash: ");
     for(int i = 0; i < SHA256_DIGEST_LENGTH; i++) {
         printf("%02x", hash[i]);

@@ -65,7 +65,7 @@ char aleatoriedade(char opcoes[]){
     return digito; 
 }
 
-int main(){
+int main(int argc, char *argv[]){
 
     //Espaço amostral : 33 a 126 
     //Fórmula : rand() % (b - a + 1) + a
